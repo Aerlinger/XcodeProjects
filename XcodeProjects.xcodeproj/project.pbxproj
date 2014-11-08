@@ -6,11 +6,34 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		6BF4FDCF1A0DF18E0077771C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BF4FDCB1A0DF18D0077771C /* StdLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6BF4FDC11A0DF18D0077771C;
+			remoteInfo = StdLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BF4FDCB1A0DF18D0077771C /* StdLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StdLib.xcodeproj; path = StdLib/StdLib.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		6BF4FDB11A0DF15D0077771C = {
 			isa = PBXGroup;
 			children = (
+				6BF4FDCB1A0DF18D0077771C /* StdLib.xcodeproj */,
 			);
+			sourceTree = "<group>";
+		};
+		6BF4FDCC1A0DF18D0077771C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BF4FDD01A0DF18E0077771C /* StdLib */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -30,11 +53,27 @@
 			);
 			mainGroup = 6BF4FDB11A0DF15D0077771C;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6BF4FDCC1A0DF18D0077771C /* Products */;
+					ProjectRef = 6BF4FDCB1A0DF18D0077771C /* StdLib.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6BF4FDD01A0DF18E0077771C /* StdLib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = StdLib;
+			remoteRef = 6BF4FDCF1A0DF18E0077771C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin XCBuildConfiguration section */
 		6BF4FDB61A0DF15D0077771C /* Debug */ = {
